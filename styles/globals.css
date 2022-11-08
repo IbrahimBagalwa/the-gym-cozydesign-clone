@@ -20,7 +20,7 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Geomanist';
+    font-family: 'GeomanistBold';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efb1c5850618211b4d_Geomanist-Bold.otf')
       format('opentype');
     font-weight: 700;
@@ -44,7 +44,7 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Geomanist book';
+    font-family: 'GeomanistBook-';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efd5a70134ded94e90_Geomanist-Book-Italic.otf')
       format('opentype');
     font-weight: 400;
@@ -52,7 +52,7 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Geomanist book';
+    font-family: 'GeomanistBook';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764ef912c660559d8e1dd_Geomanist-Book.otf')
       format('opentype');
     font-weight: 400;
@@ -164,7 +164,7 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Fraunces72ptsupersoft';
+    font-family: 'Fraunces72Italics';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e2ef6200b430e6c78_Fraunces72ptSuperSoft-BoldItalic.otf')
       format('opentype');
     font-weight: 700;
@@ -172,10 +172,10 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Fraunces72ptsupersoft';
+    font-family: 'Fraunces72Italic';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3edbaafda8cdfbf02a_Fraunces72ptSuperSoft-LightItalic.otf')
       format('opentype');
-    font-weight: 300;
+    font-weight: 800;
     font-style: italic;
     font-display: swap;
   }
@@ -196,7 +196,7 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Fraunces72ptsupersoft';
+    font-family: 'Fraunces72Regular';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e67408a53de7b6670_Fraunces72ptSuperSoft-Regular.otf')
       format('opentype');
     font-weight: 400;
@@ -212,7 +212,7 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Fraunces72ptsupersoft';
+    font-family: 'Fraunces72ptSemibold';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3ee6bcfd51ec14bc52_Fraunces72ptSuperSoft-SemiBold.otf')
       format('opentype');
     font-weight: 600;
@@ -236,7 +236,7 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Fraunces144ptsupersoft';
+    font-family: 'Fraunces144Black';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3fe92de96eebc79511_Fraunces144ptSuperSoft-Black.otf')
       format('opentype');
     font-weight: 900;
@@ -244,7 +244,7 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Fraunces144ptsupersoft';
+    font-family: 'Fraunces144BlackItalic';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3fc55c8634dea2f51d_Fraunces144ptSuperSoft-BlackItalic.otf')
       format('opentype');
     font-weight: 900;
@@ -300,11 +300,27 @@
     font-display: swap;
   }
   @font-face {
-    font-family: 'Fraunces144ptsupersoft';
+    font-family: 'Fraunces144Semibold';
     src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa40dbaafd11b5fbf02d_Fraunces144ptSuperSoft-SemiBold.otf')
       format('opentype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
   }
+}
+.get__cozy {
+  background-image: url('/images/bg-noirse.webp'),
+    -webkit-gradient(linear, left top, left bottom, from(rgba(213, 173, 143, 0.3)), to(rgba(213, 173, 143, 0.3))),
+    url('/images/stacked.svg');
+  background-image: url('/images/bg-noirse.webp'),
+    linear-gradient(180deg, rgba(213, 173, 143, 0.3), rgba(213, 173, 143, 0.3)),
+    url('/images/stacked.svg');
+  background-position: 0 0, 0 0, 0 0;
+  background-size: 50px, auto, cover;
+}
+.show__radius {
+  box-shadow: 0 10px 24px 0 rgb(45 72 80 / 60%);
+}
+.show__radius-orange {
+  box-shadow: 0 10px 24px 0 rgb(196 125 87 / 90%);
 }
