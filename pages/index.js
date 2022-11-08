@@ -1,4 +1,5 @@
 import Client from '../components/client/Client';
+import Design from '../components/design/Design';
 import GetCozy from '../components/getcoz/GetCozy';
 import Hero from '../components/hero/Hero';
 import Header from '../components/layout/Header';
@@ -12,6 +13,7 @@ export default function Home() {
       <GetCozy />
       <Client />
       <Partner />
+      <Design />
     </div>
   );
 }
