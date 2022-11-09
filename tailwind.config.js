@@ -31,6 +31,13 @@ module.exports = {
         'header-text': '#d4ac8e',
         'get-cozy-to': 'rgba(213,173,143,.3)',
         'get-cozy-fro': 'rgba(213,173,143,.3)',
+        tw: '#1da1f2',
+        in: '#2977c9',
+        fb: '#4267b2',
+        inst: '#e4405f',
+        yt: '#c4302b',
+        c: '#16313a',
+        m: '#223240',
       },
       spacing: {
         17: '69px',
@@ -39,6 +46,7 @@ module.exports = {
         noise: "url('/images/bg-noirse.webp')",
         tracked: "url('/images/tracked.svg')",
         dot: 'url(/images/pattern-dot-white.svg)',
+        love: 'url(/images/love.svg)',
       },
       backgroundPosition: {
         51: '50% 50%',

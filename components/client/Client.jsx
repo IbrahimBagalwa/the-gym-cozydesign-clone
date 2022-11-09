@@ -4,13 +4,13 @@ import React from 'react';
 export default function Client({}) {
   return (
     <section className='w-full bg-white-orange'>
-      <div className='max-w-[991px] '>
-        <div className='w-[398px] mx-auto py-10'>
-          <h2 className='pt-10 text-2xl text-center font-primary text-secondary pb-2.5'>
-            ❤️ from our clients
-          </h2>
-          <div className='w-10 h-10 m-auto mb-8 border-b-4 border-bt-or'></div>
-          <div className='bg-noise bg-secondary rounded-tl-[80%] rounded-tr-[80%] rounded-br-[0%] rounded-bl-[100%] show__radius w-fit py-20 px-14 m-auto mb-10'>
+      <div className='mx-auto'>
+        <h2 className='pt-10 text-2xl text-center font-primary text-secondary pb-2.5'>
+          ❤️ from our clients
+        </h2>
+        <div className='w-10 h-10 m-auto mb-8 border-b-4 border-bt-or'></div>
+        <div className='py-10 md:py-20 flex flex-col items-center md:items-stretch md:flex-row md:flex-wrap md:py-4 md:gap-8  justify-center'>
+          <div className='bg-noise bg-secondary rounded-tl-[80%] rounded-tr-[80%] rounded-br-[0%] rounded-bl-[100%] show__radius w-fit py-20 px-3  mb-10 md:mb-0'>
             <div className='w-64'>
               <Image
                 height='80'
@@ -30,13 +30,13 @@ export default function Client({}) {
               <div className='mt-2 text-xs uppercase text-white-orange font-geonist-primary tracking-[4px] text-end'>
                 <strong>Susie Pollasky</strong>
               </div>
-              <div className='mt-1 text-xs text-white-orange font-geonist-secondary opacity-[.7] text-end '>
+              <div className='mt-1 text-xs text-white-orange font-geonist-secondary opacity-[.7] text-end tracking-tighter'>
                 Now: Leadership Recruiting @ Product Design <br />
                 at Facebook
               </div>
             </div>
           </div>
-          <div className='bg-noise bg-[#2d4850] rounded-tl-[100%] rounded-tr-[100%] rounded-br-[50%] rounded-bl-[0%] show__radius w-fit py-20 px-14 m-auto mb-10'>
+          <div className='bg-noise bg-[#2d4850] rounded-tl-[100%] rounded-tr-[100%] rounded-br-[50%] rounded-bl-[0%] show__radius w-fit py-20 mb-10 md:mb-0 px-6'>
             <div className='w-64'>
               <Image
                 height='80'
@@ -65,7 +65,7 @@ export default function Client({}) {
             </div>
           </div>
 
-          <div className='bg-noise bg-get rounded-tl-[100%] rounded-tr-[0%] bg-50 rounded-br-[60%] rounded-bl-[60%] show__radius-orange w-fit py-20 px-14 m-auto mb-10 text-end'>
+          <div className='bg-noise bg-get rounded-tl-[100%] rounded-tr-[0%] bg-50 rounded-br-[60%] rounded-bl-[60%] show__radius-orange w-fit py-20 mb-10 text-end md:mb-0 px-6'>
             <div className='w-64'>
               <Image
                 height='80'
@@ -89,7 +89,7 @@ export default function Client({}) {
               </div>
             </div>
           </div>
-          <div className='bg-noise bg-[#b55730] rounded-tl-[0%] rounded-tr-[100%] bg-50 rounded-br-[60%] rounded-bl-[60%] show__radius-orange w-fit py-20 px-14 m-auto mb-10 text-start'>
+          <div className='bg-noise bg-[#b55730] rounded-tl-[0%] rounded-tr-[100%] bg-50 rounded-br-[60%] rounded-bl-[60%] show__radius-orange w-fit py-20 px-6 mb-10 text-start md:mb-0'>
             <div className='w-64'>
               <Image
                 height='80'

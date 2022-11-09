@@ -4,9 +4,9 @@ import Button from '../button/Button';
 
 export default function Hero() {
   return (
-    <section className='-top-1 bg-gradient-to-r from-gradient to-secondary'>
-      <div className='mx-6 '>
-        <h1 className='bg-clip-text text-transparent bg-noise  font-secondary text-[90px--] md:text-[80px] text-[64px] bg-header-text mb-[20px] pt-3 pb-5 leading-none'>
+    <section className='-top-1 bg-gradient-to-r from-gradient to-secondary md:flex flex-col justify-center items-center '>
+      <div className='mx-6 md:mx-28'>
+        <h1 className='bg-clip-text text-transparent bg-noise  font-secondary md:text-[80px] text-[64px] bg-header-text mb-[20px] pt-3 pb-5 leading-none md:pr-10 md:mt-16'>
           Your design team for the cost of a salary.
         </h1>
         <h4 className='bg-clip-text text-transparent bg-noise bg-[#e4ded5] text-[30px] leading-10 font-primary opacity-80 pt-[10px] pb-[50px]'>
@@ -14,7 +14,7 @@ export default function Hero() {
           organizations need. Are you strained because you should have a design
           team but you don't?
         </h4>
-        <Button>See how we work & what we can do</Button>
+        <Button styles='md:py-8'>See how we work & what we can do</Button>
       </div>
       <div className=''>
         <Image
@@ -22,7 +22,7 @@ export default function Hero() {
           alt='getcozydesign'
           height='259'
           width='255'
-          className='mx-auto mt-10'
+          className='mx-auto mt-10 md:w-[594px] md:-mb-20'
         />
       </div>
     </section>
