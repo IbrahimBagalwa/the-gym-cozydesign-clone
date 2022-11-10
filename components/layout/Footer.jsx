@@ -105,7 +105,7 @@ export default function Footer() {
           <Image
             width='200'
             height='200'
-            src='/images/cap.png'
+            src='/images/cap.PNG'
             className='md:w-72 md:h-20 xl:w-48 xl:h-10 md:-ml-8'
           />
         </div>
