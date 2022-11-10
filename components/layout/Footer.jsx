@@ -109,12 +109,12 @@ export default function Footer() {
             className='md:w-72 md:h-20 md:-ml-8'
           />
         </div>
-        <div className='flex flex-col justify-center md:mr-4 items-center md:items-end gap-10 md:gap-20  md:w-full'>
+        <div className='flex flex-col lg:flex-row justify-center md:mr-4 items-center md:items-end lg:items-center gap-10 md:gap-20 lg:gap-4  md:w-full'>
           <div className='text-secondary text-xs font-paragraph-text text-center md:mr-4'>
             Made❤️with in beautiful, sunny San Diego.{' '}
             <br className='md:hidden block' /> ©2021
           </div>
-          <div className='text-sm text-center font-paragraph-text flex gap-8 '>
+          <div className='text-sm text-center font-paragraph-text flex gap-8 lg:gap-4'>
             <p>Privacy</p>
             <p>Photo credit</p>
           </div>

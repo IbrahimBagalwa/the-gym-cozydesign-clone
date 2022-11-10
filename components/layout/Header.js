@@ -20,7 +20,7 @@ export default function Header() {
           className='block lg:hidden'
         />
         <div>
-          <ul className='text-white-orange font-primary flex justify-between gap-10 text-2xl'>
+          <ul className='text-white-orange font-primary lg:flex justify-between gap-10 text-2xl hidden'>
             <li>Get Cozy</li>
             <li>What we do</li>
             <li>Our work</li>

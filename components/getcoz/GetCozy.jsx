@@ -4,10 +4,10 @@ import Button from '../button/Button';
 
 export default function GetCozy() {
   return (
-    <section className='relative z-50 w-full -mt-10 overflow-hidden get__cozy bg-white-orange'>
+    <section className='relative z-50 w-full -mt-10 overflow-hidden get__cozy bg-white-orange lg:py-44'>
       <div className='bg-dot w-[186px] bg-51 h-[186px] right-[-12%] -top-20 absolute opacity-[.16] rounded-[50%]'></div>
-      <div className='flex flex-col justify-center items-center'>
-        <div className='px-4 md:px-32'>
+      <div className='flex flex-col justify-center items-center lg:flex-row  lg:w-full lg:px-20'>
+        <div className='px-4 md:px-32 lg:px-8  lg:w-full'>
           <div className='pt-20 text-3xl font-primary text-secondary'>
             <strong>🌴🐻🇺🇸</strong>
           </div>
@@ -32,7 +32,7 @@ export default function GetCozy() {
           </p>
           <Button styles='text-xl px-16 md:py-8'>Why we do what we do</Button>
         </div>
-        <div className='md:grid grid-cols-2 gap-x-32 md:mt-10'>
+        <div className='md:grid grid-cols-2 gap-x-32 lg:gap-x-3 md:mt-10 lg:w-full'>
           <div>
             <Image
               width='140'
