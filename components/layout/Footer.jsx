@@ -88,27 +88,33 @@ export default function Footer() {
         </div>
       </section>
       <div className='border-b-2 border-bt-or w-72 mx-auto md:w-[90%] md:mt-10'></div>
-      <section className='mb-8'>
-        <div className='flex justify-center flex-col items-center gap-10 py-16 md:flex-row'>
+      <section className='mb-8 md:flex justify-center md:mx-4'>
+        <div className='flex justify-center md:justify-around flex-col items-center gap-10 py-16 md:flex-row md:flex-wrap md:w-full'>
           <div className='flex flex-col'>
             <Image
               width='140'
               height='140'
               src='/images/log-5.svg'
-              className='mx-auto mb-10'
+              className='mx-auto mb-10 md:mb-1'
             />
             <div className='mx-auto text-sm font-semibold bg-clip-text text-transparent bg-[#2d4850] font-log'>
               <strong>BBB&nbsp;rating:&nbsp;A+</strong>
             </div>
           </div>
           <Image width='140' height='140' src='/images/dig.png' />
-          <Image width='200' height='200' src='/images/cap.png' />
+          <Image
+            width='200'
+            height='200'
+            src='/images/cap.png'
+            className='md:w-72 md:h-20 md:-ml-8'
+          />
         </div>
-        <div className='flex flex-col justify-center items-center gap-10'>
-          <div className='text-secondary text-xs font-paragraph-text text-center'>
-            Made❤️with in beautiful, sunny San Diego. <br /> ©2021
+        <div className='flex flex-col justify-center md:mr-4 items-center md:items-end gap-10 md:gap-20  md:w-full'>
+          <div className='text-secondary text-xs font-paragraph-text text-center md:mr-4'>
+            Made❤️with in beautiful, sunny San Diego.{' '}
+            <br className='md:hidden block' /> ©2021
           </div>
-          <div className='text-sm text-center font-paragraph-text flex gap-8'>
+          <div className='text-sm text-center font-paragraph-text flex gap-8 '>
             <p>Privacy</p>
             <p>Photo credit</p>
           </div>

@@ -3,13 +3,13 @@ import React from 'react';
 
 export default function Client({}) {
   return (
-    <section className='w-full bg-white-orange'>
-      <div className='mx-auto'>
+    <section className='w-full bg-white-orange md:pb-20'>
+      <div className='mx-auto '>
         <h2 className='pt-10 text-2xl text-center font-primary text-secondary pb-2.5'>
           ❤️ from our clients
         </h2>
         <div className='w-10 h-10 m-auto mb-8 border-b-4 border-bt-or'></div>
-        <div className='py-10 md:py-20 flex flex-col items-center md:items-stretch md:flex-row md:flex-wrap md:py-4 md:gap-8  justify-center'>
+        <div className='py-10 md:py-20 flex flex-col items-center md:items-stretch md:flex-row md:flex-wrap md:py-4 md:gap-8  justify-center md:relative'>
           <div className='bg-noise bg-secondary rounded-tl-[80%] rounded-tr-[80%] rounded-br-[0%] rounded-bl-[100%] show__radius w-fit py-20 px-3  mb-10 md:mb-0'>
             <div className='w-64'>
               <Image
@@ -63,6 +63,12 @@ export default function Client({}) {
                 General Manager @ iQuoteXpress
               </div>
             </div>
+          </div>
+
+          <div className='absolute bottom-[42%] z-50 bg-white-orange rounded-full p-8 md:block hidden'>
+            <Image height='32' width='32' src='/images/ms.svg' className='' />
+            <div className='absolute  border-2 border-white-orange opacity-[.3] rounded-full -left-[1rem] -bottom-[1rem] -right-[1rem] -top-[1rem]'></div>
+            <div className='absolute  border-2 border-white-orange opacity-[.7] rounded-full -left-[.5rem] -bottom-[.5rem] -right-[.5rem] -top-[.5rem]'></div>
           </div>
 
           <div className='bg-noise bg-get rounded-tl-[100%] rounded-tr-[0%] bg-50 rounded-br-[60%] rounded-bl-[60%] show__radius-orange w-fit py-20 mb-10 text-end md:mb-0 px-6'>
