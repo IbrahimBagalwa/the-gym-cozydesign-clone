@@ -88,8 +88,8 @@ export default function Footer() {
         </div>
       </section>
       <div className='border-b-2 border-bt-or w-72 mx-auto md:w-[90%] md:mt-10'></div>
-      <section className='mb-8 md:flex justify-center md:mx-4'>
-        <div className='flex justify-center md:justify-around flex-col items-center gap-10 py-16 md:flex-row md:flex-wrap md:w-full'>
+      <section className='mb-8 md:flex justify-center md:mx-4 xl:mx-14 xl:gap-10 '>
+        <div className='flex justify-center md:justify-around flex-col items-center gap-10 py-16 md:flex-row md:flex-wrap xl:flex-nowrap md:w-full'>
           <div className='flex flex-col'>
             <Image
               width='140'
@@ -106,11 +106,11 @@ export default function Footer() {
             width='200'
             height='200'
             src='/images/cap.png'
-            className='md:w-72 md:h-20 md:-ml-8'
+            className='md:w-72 md:h-20 xl:w-48 xl:h-10 md:-ml-8'
           />
         </div>
-        <div className='flex flex-col lg:flex-row justify-center md:mr-4 items-center md:items-end lg:items-center gap-10 md:gap-20 lg:gap-4  md:w-full'>
-          <div className='text-secondary text-xs font-paragraph-text text-center md:mr-4'>
+        <div className='flex flex-col lg:flex-row justify-center xl:justify-around md:mr-4 xl:mr-0 items-center md:items-end lg:items-center gap-10 md:gap-20 lg:gap-4 md:w-full'>
+          <div className='text-secondary text-xs font-paragraph-text text-center md:mr-4 '>
             Made❤️with in beautiful, sunny San Diego.{' '}
             <br className='md:hidden block' /> ©2021
           </div>

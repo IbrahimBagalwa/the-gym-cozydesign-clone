@@ -5,7 +5,7 @@ import Button from '../button/Button';
 export default function Hero() {
   return (
     <section className='-top-1 bg-gradient-to-r from-gradient to-secondary md:flex flex-col lg:flex-row justify-center items-center lg:overflow-hidden'>
-      <div className='mx-6 md:mx-28 lg:mx-10 lg:pb-14'>
+      <div className='mx-6 md:mx-28 lg:mx-10 lg:pb-14 xl:pb-8'>
         <h1 className='bg-clip-text text-transparent bg-noise  font-secondary md:text-[80px] text-[64px] bg-header-text mb-[20px] pt-3 pb-5 leading-none md:pr-10 md:mt-16'>
           Your design team for the cost of a salary.
         </h1>

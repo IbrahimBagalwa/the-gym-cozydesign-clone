@@ -9,7 +9,7 @@ export default function Client({}) {
           ❤️ from our clients
         </h2>
         <div className='w-10 h-10 m-auto mb-8 border-b-4 border-bt-or'></div>
-        <div className='py-10 md:py-20 flex flex-col items-center md:items-stretch md:flex-row md:flex-wrap md:py-4 md:gap-8  justify-center md:relative lg:grid lg:grid-cols-2 lg:justify-center lg:items-center-  lg:h-[100vh] lg:gap-10 lg:px-44'>
+        <div className='py-10 md:py-20 flex flex-col items-center md:items-stretch md:flex-row md:flex-wrap md:py-4 md:gap-8  justify-center md:relative lg:grid lg:grid-cols-2 lg:justify-center  lg:h-[100vh]- lg:gap-10 lg:px-44'>
           <div className='bg-noise bg-secondary rounded-tl-[80%] rounded-tr-[80%] rounded-br-[0%] rounded-bl-[100%] show__radius w-fit py-20 px-3  mb-10 md:mb-0'>
             <div className='md:w-64 lg:w-auto'>
               <Image
