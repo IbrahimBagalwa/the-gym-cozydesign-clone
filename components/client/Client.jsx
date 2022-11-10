@@ -11,7 +11,7 @@ export default function Client({}) {
         <div className='w-10 h-10 m-auto mb-8 border-b-4 border-bt-or'></div>
         <div className='py-10 md:py-20 flex flex-col items-center md:items-stretch md:flex-row md:flex-wrap md:py-4 md:gap-8  justify-center md:relative lg:grid lg:grid-cols-2 lg:justify-center  lg:h-[100vh]- lg:gap-10 lg:px-44'>
           <div className='bg-noise bg-secondary rounded-tl-[80%] rounded-tr-[80%] rounded-br-[0%] rounded-bl-[100%] show__radius w-fit py-20 px-3  mb-10 md:mb-0'>
-            <div className='md:w-64 lg:w-auto'>
+            <div className='w-64 lg:w-auto'>
               <Image
                 height='80'
                 width='80'
@@ -37,7 +37,7 @@ export default function Client({}) {
             </div>
           </div>
           <div className='bg-noise bg-[#2d4850] rounded-tl-[100%] rounded-tr-[100%] rounded-br-[50%] rounded-bl-[0%] show__radius w-fit py-20 mb-10 md:mb-0 px-6'>
-            <div className='md:w-64 lg:w-auto'>
+            <div className='w-64 lg:w-auto'>
               <Image
                 height='80'
                 width='80'
@@ -72,7 +72,7 @@ export default function Client({}) {
           </div>
 
           <div className='bg-noise bg-get rounded-tl-[100%] rounded-tr-[0%] bg-50 rounded-br-[60%] rounded-bl-[60%] show__radius-orange w-fit py-20 mb-10 text-end md:mb-0 px-6'>
-            <div className='md:w-64 lg:w-auto'>
+            <div className='w-64 lg:w-auto'>
               <Image
                 height='80'
                 width='80'
@@ -96,7 +96,7 @@ export default function Client({}) {
             </div>
           </div>
           <div className='bg-noise bg-[#b55730] rounded-tl-[0%] rounded-tr-[100%] bg-50 rounded-br-[60%] rounded-bl-[60%] show__radius-orange w-fit py-20 px-6 mb-10 text-start md:mb-0'>
-            <div className='md:w-64 lg:w-auto'>
+            <div className='w-64 lg:w-auto'>
               <Image
                 height='80'
                 width='80'
